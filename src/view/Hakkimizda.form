@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="HAKKIMIZDA"/>
+    <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+      <Rectangle value="[700, 250, 0, 0]"/>
+    </Property>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[500, 350]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="412" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+              <Component id="geri_git_butonu" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="473" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="geri_git_butonu" pref="38" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Hakk&#x131;m&#x131;zda : &#xa;Ay&#x15f;e &#x130;pek Y&#x131;lmaz, Hasan Ali Y&#x131;ld&#x131;r, Nevin &#x130;n, &#xa;Kenan Y&#x131;lmaz, &#xd6;zlem Y&#x131;lmaz ile beraber &#xa;geli&#x15f;tirdi&#x11f;imiz bu proje Yaz&#x131;l&#x131;m M&#xfc;hendisli&#x11f;i&#xa;dersi &#xf6;devi olarak geli&#x15f;tirilmi&#x15f;tir.&#xa;Program e&#x11f;er daha fazla geli&#x15f;tirilirse&#xa;gelecek vaad eden bir yap&#x131;ya kavu&#x15f;abilir.&#xa;Program&#x131;n amac&#x131; ki&#x15f;inin se&#xe7;ti&#x11f;i sigorta &#xa;alan&#x131;na uygun olarak belirtilen &#xf6;zellikler ile &#xa;ki&#x15f;inin tercih etti&#x11f;i sigorta kapsam&#x131;nda&#xa;en uygun fiyatland&#x131;rmay&#x131; yapmay&#x131; hedefler.&#xa;&#xd6;rne&#x11f;in : Ki&#x15f;i ara&#xe7; sigortas&#x131; k&#x131;sm&#x131;n&#x131; se&#xe7;ip &#xa;gerekli bilgi alanlar&#x131;n&#x131; doldurduktan sonra&#xa;(ara&#xe7; ya&#x15f;&#x131;, ara&#xe7; cinsi, kaza ge&#xe7;mi&#x15f;i, ticari&#xa;olup olmad&#x131;&#x11f;&#x131; vb.) se&#xe7;ilen kriterlere g&#xf6;re en &#xa;uygun fiyatland&#x131;rmay&#x131; yapmay&#x131; hedefler,&#xa;fiyatland&#x131;rma durumu yasal olarak &#xe7;e&#x15f;itli &#xa;ara&#x15f;t&#x131;rmalar sonucu elde etti&#x11f;imiz bilgiler&#xa;sonucunda en uygun de&#x11f;eri &#xe7;&#x131;karmakt&#x131;r.&#xa;Hesaplamada kullan&#x131;lan rakamlar tam olarak&#xa;ger&#xe7;e&#x11f;i yans&#x131;tmasada piyasa d&#xfc;zeyinde&#xa;alt ve &#xfc;st s&#x131;n&#x131;r &#xe7;er&#xe7;evesinde bir fiyat ortaya&#xa;koyar.&#xa;&#xa;Vizyonumuz : &#xa;Kullan&#x131;c&#x131;/Ki&#x15f;ilere en uygun &#x15f;ekilde ve h&#x131;zl&#x131; &#xa;bir bi&#xe7;imde veri ak&#x131;&#x15f;&#x131; sa&#x11f;lamakt&#x131;r.&#xa;&#xa;Misyonumuz : &#xa;Program&#x131;m&#x131;z&#x131; g&#xfc;n ve g&#x11f;n geli&#x15f;tirerek daha&#xa;g&#xfc;ncel veriler &#x131;&#x15f;&#x131;&#x11f;&#x131;nda, kullan&#x131;c&#x131; dostu &#xa;olmay&#x131; hedefler. Ki&#x15f;ilerin serbest piyasa &#xa;ortam&#x131;nda madur olmamas&#x131; i&#xe7;in &#xe7;abalar.&#xa;Bunun i&#xe7;in BIGGANG S&#x130;GORTA A.&#x15e; olarak&#xa;en uygun se&#xe7;enekleri bulmaya yard&#x131;mc&#x131; &#xa;olur.&#xa;Bizi Tercih Etti&#x11f;iniz &#x130;&#xe7;in Te&#x15f;ekk&#xfc;r Ederiz.&#xa;BIGGANG S&#x130;GORTA A.&#x15e; Toplulu&#x11f;u&#xa;&#xa;"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder>
+                  <Color PropertyName="color" blue="66" green="66" red="66" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="geri_git_butonu">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="33" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="HESAPLAMA SAYFASINA D&#xd6;N"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geri_git_butonuActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
